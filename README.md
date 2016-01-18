@@ -55,13 +55,14 @@ Include plugin.js in your html like this if the .js file is in the same map as y
 <script type="text/javascript" src="plugin.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
+Put the plugin reference under your head but inside the body tags. 
 
-Put the plugin reference ($(function() 
-{
+    ($(function() 
+    {
     $(".fp-controlArrow").arrowFade({opacity: 0.5, speed: "fast", toOpacity: 1});
-});
-)  under your head but inside the body tags. 
-
+    });
+    )  
+    
 ## API Reference
 
 http://dirkkersten.com/#secondPage/2
