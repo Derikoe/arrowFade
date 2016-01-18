@@ -50,9 +50,9 @@ The reason this JQuery plugin exists is that it can save time and space if you r
 
 
 ## Installation
-Include plugin.js in your html like this if the .js file is in the same map as your HTML file. Otherwise: change the src to the correct path. Do the same with the JQuery library. You need an active internet connection for this specific JQuery reference. You can also download JQuery separetely and put it in your folder(then you must change the src to the correct path).
+Don't forget to include plugin.js and the jquery library: http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js.
 
-Don't forget to include plugin.js and the jquery library: http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
+You could also download the JQuery library and add it just like plugin.js.
 
 Put this plugin reference under your head but inside the body tags. 
 
@@ -61,7 +61,9 @@ Put this plugin reference under your head but inside the body tags.
     $(".fp-controlArrow").arrowFade({opacity: 0.5, speed: "fast", toOpacity: 1});
     });
     )  
-    
+
+That's all folks !
+
 ## API Reference
 
 http://dirkkersten.com/#secondPage/2
